@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    height: 300px;
+    background-image: url('../../assets/pexels-sergio-souza-2039817.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 40px;
+}
+
+.header__h1 {
+    color: #F6F5F9;
+    font-weight: bold;
+}
+
+.header__p {
+    color: #F6F5F9;
+    font-weight: bold;
+}
+
+.btn__head {
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}

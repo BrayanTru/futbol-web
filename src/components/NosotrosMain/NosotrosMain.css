@@ -1,0 +1,138 @@
+.nosotros_main {
+    font-family: Arial, sans-serif;
+    background-color: #E4E9E9;
+}
+
+.container_slider {
+   display: flex;
+   justify-content: center;
+}
+
+.container_nosotros {
+    padding-bottom: 40px;
+}
+
+.container_nosotros h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.container_nosotros h2 {
+    color: #333;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.container_nosotros p {
+    color: #666;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.quienes-somos {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.img-nosotros {
+    width: 50%;
+    margin-right: 20px;
+    align-tracks: center;
+}
+
+.texto-nosotros {
+    width: 50%;
+    margin: auto;
+}
+
+/* Estilos de la sección de Redes Sociales */
+.redes-sociales {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.logos-redes img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+
+.img-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-slider img {
+    width: 350px;
+    height: 310px;
+    margin: 30px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.img-slider img:hover {
+    transform: scale(1.15);
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    filter: brightness(0.8) saturate(1.2) contrast(1.2);
+}
+
+
+
+
+.btn-whatsapp {
+	position: fixed;
+	z-index: 999;
+	top: 200px;
+	right: 20px;
+}
+
+.btn-whatsapp:before,
+.btn-whatsapp:after {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: #00e676;
+	opacity: 0;
+	animation: onda 1.7s infinite;
+}
+
+.btn-whatsapp:before {
+	animation-delay: 1s;
+}
+
+.btn-whatsapp:after {
+	animation-delay: 1.3s;
+}
+
+.btn-whatsapp img {
+	position: relative;
+	z-index: 2;
+}
+
+@keyframes onda {
+	0% {
+		transform: scale(1);
+	}
+
+	15%{
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(2.5);
+	}
+}
